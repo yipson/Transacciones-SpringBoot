@@ -3,10 +3,10 @@ Entidad sera el nombre de nuestra clase dominio que se relaciona con una tabla e
 1. se crea la interface con los metodos que queremos que se implementen EntidadService
 
 
-2. creamos la clase con implements a EntidadService, y se le pone a la clase @Service      para identificar que es un servicio, llamado EntidadServiceImpl
+2. creamos la clase con implements a EntidadService, y se marca la clase como @Service      para identificar que es un servicio, llamado EntidadServiceImpl
 
 
-3. se agrega el atributo de tipo EntidadDao y se marca de tipo @Autowired
+3. se agrega el atributo de tipo EntidadDao y se marca de como @Autowired
 
 
 4. se agregan las clases correspondientes a cada query con ayuda del atributo Dao
