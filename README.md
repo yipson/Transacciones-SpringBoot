@@ -1,3 +1,5 @@
+# Manejo de transaciones - Sring Boot
+
 Entidad sera el nombre de nuestra clase dominio que se relaciona con una tabla en DB
 
 1. se crea la interface con los metodos que queremos que se implementen EntidadService
